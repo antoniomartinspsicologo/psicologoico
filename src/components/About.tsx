@@ -89,32 +89,17 @@ export const About: React.FC = () => {
 
             <div className="prose prose-slate text-slate-700 leading-relaxed text-base space-y-4">
               <p>
-                Seja muito bem-vindo. Sou o psicólogo <strong className="text-slate-900 font-semibold">{CLINIC_INFO.professionalName}</strong> (CRP {CLINIC_INFO.crp}). Ao longo de <strong>mais de 8 anos de experiência prática na clínica psicológica</strong>, aprendi que por trás de cada queixa ou diagnóstico existe um ser humano buscando compreensão, alívio e um porto seguro para suas dores.
+                Seja muito bem-vindo, meu nome é <strong className="text-slate-900 font-semibold">Antonio Martins</strong>, sou psicólogo e ao longo de <strong>mais de 8 anos de experiência prática na clínica psicológica</strong>, aprendi que por trás de cada queixa ou diagnóstico existe um ser humano buscando compreensão, alívio e um porto seguro para suas dores.
               </p>
               <p>
-                Minha atuação é pautada pelo acolhimento afetuoso, pela escuta atenta e livre de qualquer julgamento moral. Acredito verdadeiramente que a psicoterapia é um trabalho construído a quatro mãos, onde a delicadeza e o carinho se somam às intervenções de maior respaldo científico — como a <strong className="text-teal-900 font-semibold">Terapia Cognitivo-Comportamental (TCC)</strong>, a <strong className="text-teal-900 font-semibold">Terapia Comportamental Dialética (DBT)</strong> e a <strong className="text-teal-900 font-semibold">Terapia de Casal (IBCT)</strong> — para devolver a leveza e o sentido à sua vida.
+                Minha atuação é pautada pelo acolhimento afetuoso, pela escuta atenta e livre de qualquer julgamento moral, pois acredito verdadeiramente que a psicoterapia é um trabalho construído a quatro mãos, onde a delicadeza e o carinho se somam às <strong className="text-teal-900 font-semibold">intervenções de maior respaldo científico</strong> para devolver a leveza e o sentido à sua vida.
               </p>
               <p>
                 Com o compromisso de manter a excelência técnica sempre aliada à sensibilidade humana, atuo também desde 2019 como <strong>professor universitário e supervisor clínico na graduação em Psicologia</strong>, auxiliando no ensino e na orientação de futuros psicólogos.
               </p>
               <p>
-                No meu consultório presencial na <strong className="text-slate-900 font-semibold">{CLINIC_INFO.clinicName}</strong>, em Icó-CE, estou pronto para caminhar ao seu lado no enfrentamento da ansiedade, depressão, momentos de crise, desregulação emocional e conflitos nos relacionamentos.
+                Atendo de forma presencial na <strong className="text-slate-900 font-semibold">{CLINIC_INFO.clinicName}</strong>, em Icó-CE, e estou pronto para caminhar ao seu lado no enfrentamento da ansiedade, depressão, momentos de crise, desregulação emocional e conflitos nos relacionamentos.
               </p>
-            </div>
-
-            <div className="pt-2 flex flex-wrap items-center gap-2.5 text-xs font-medium text-slate-700">
-              <span className="inline-flex items-center gap-1.5 bg-teal-50 text-teal-950 border border-teal-200/80 px-3 py-1.5 rounded-lg">
-                <Award className="w-4 h-4 text-teal-700 shrink-0" />
-                +8 Anos de Experiência Clínica
-              </span>
-              <span className="inline-flex items-center gap-1.5 bg-slate-100 text-slate-800 border border-slate-200 px-3 py-1.5 rounded-lg">
-                <BookOpen className="w-4 h-4 text-teal-700 shrink-0" />
-                Professor & Supervisor Clínico (desde 2019)
-              </span>
-              <span className="inline-flex items-center gap-1.5 bg-slate-100 text-slate-800 border border-slate-200 px-3 py-1.5 rounded-lg">
-                <CheckCircle className="w-4 h-4 text-teal-700 shrink-0" />
-                Inscrição CFP: {CLINIC_INFO.crp}
-              </span>
             </div>
 
           </div>
