@@ -1,0 +1,6 @@
+{
+  "name": "Psicólogo Antonio Martins - Icó CE",
+  "description": "Site institucional de psicoterapia clínica do psicólogo Antonio Martins Vieira e Silva Junior (CRP 11/12047) na Clínica Cândido Torres em Icó, Ceará.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
